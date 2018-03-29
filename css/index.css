@@ -1,0 +1,237 @@
+/*首页中间内容部分样式*/
+.grid {
+    height: 480px;
+}
+
+.grid .nav-bar {
+    width: 190px;
+    background: #6d6568;
+    height: 470px;
+    font-size: 14px;
+    padding: 5px 0;
+    color: #fff;
+}
+
+.grid .nav-bar li {
+    height: 33px;
+    padding-left: 15px;
+    line-height: 33px;
+}
+
+.grid .nav-bar li:hover {
+    background: #bd90a1;
+}
+
+.grid .nav-bar a {
+    font-size: 14px;
+    color: #fff;
+    margin: 0 3px;
+}
+
+.grid .nav-bar a:hover {
+    color: #f10215;
+}
+
+.grid .banner-bar {
+    width: 790px;
+    height: 480px;
+    margin-left: 10px;
+}
+
+.grid .banner-bar .banner {
+    position: relative;
+    font-size: 0;
+}
+
+/*左右切换按钮*/
+.grid .banner .arrow-left,
+.grid .banner .arrow-right {
+    display: block;
+    width: 30px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-25px);
+}
+
+.grid .banner .arrow-left .arrow-left {
+    left: 0;
+}
+
+.grid .banner-bar .banner .arrow-right {
+    right: 0;
+}
+
+/*指示条*/
+.grid .banner-bar .banner .indicate {
+    position: absolute;
+    left: 50%;
+    margin-left: -84px;
+    width: 168px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    bottom: 20px;
+    border-radius: 10px;
+}
+
+.grid .banner .indicate li {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 50%;
+    float: left;
+    margin: 4px 8px;
+}
+
+.grid .banner .indicate li.current {
+    background: #f10215;
+}
+
+.grid .banner-bar .banner-b {
+    padding-top: 8px;
+    font-size: 0;
+}
+
+.grid .banner-bar .banner-b .f-right img {
+    margin-left: 5px;
+}
+
+.grid .info-bar {
+    width: 190px;
+    height: 480px;
+    background: #fff;
+}
+
+.grid .info-bar .login {
+    height: 85px;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.grid .info-bar .t {
+    width: 95px;
+    height: 50px;
+    padding-left: 60px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #666;
+    line-height: 20px;
+}
+
+.grid .info-bar .m a {
+    border: 2px solid #f10215;
+    color: #f10215;
+    display: inline-block;
+    width: 70px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.grid .info-bar .m a:hover {
+    background: #f10215;
+    color: #fff;
+}
+
+.grid .info-bar .user-pic {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #fff url("../images/sprite_userinfo@1x.png") no-repeat -70px 0;
+    overflow: hidden;
+}
+
+.grid .info-bar .user-pic img {
+    width: 80%;
+    border-radius: 50%;
+    margin: 5px 0 0 5px;
+}
+
+.grid .info-bar .tab-news {
+    height: 154px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 7px 15px;
+}
+
+.grid .info-bar .tab-news .t-title {
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.grid .info-bar .tab-news .t-title a {
+    line-height: 1.8;
+}
+
+.grid .info-bar .tab-news .t-title a:nth-of-type(3) {
+    float: right;
+}
+
+.grid .info-bar .tab-news .t-title span {
+    color: #999;
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+.grid .info-bar .tab-news .t-title .slider {
+    width: 30px;
+    height: 3px;
+    background: #f10215;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+}
+
+.grid .info-bar .tab-news .content {
+    padding-top: 10px;
+}
+
+.grid .info-bar .tab-news .content li {
+    padding-top: 7px;
+}
+
+.grid .info-bar .quick-service {
+    overflow: hidden;
+}
+
+.grid .info-bar .quick-service ul {
+    width: 192px;
+}
+
+.grid .info-bar .quick-service li {
+    width: 48px;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+    float: left;
+}
+
+.grid .info-bar .quick-service li a {
+    display: block;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.grid .info-bar .quick-service li a i {
+    display: block;
+    width: 23px;
+    height: 26px;
+    background: url("../images/sprite_fs@1x.png") no-repeat;
+    margin: 0 auto;
+}
+
+.grid .info-bar .quick-service li:nth-child(2) a i {
+    background-position: -45px 0;
+}
