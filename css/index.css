@@ -1,7 +1,17 @@
 /*首页中间内容部分样式*/
 .grid {
     height: 480px;
+    position: relative;
 }
+.grid .ad-l{
+    position: absolute;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 480px;
+}
+
+
 
 .grid .nav-bar {
     width: 190px;
